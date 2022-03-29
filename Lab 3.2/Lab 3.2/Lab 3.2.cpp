@@ -34,8 +34,6 @@ struct Student {
 
 void Create(Student* s, const int N);
 void Print(Student* s, const int N);
-string highestAverageScore(Student* s, const int N);
-double percentageStudentsStudyExcellently(Student* s, const int N);
 void Sort(Student* s, const int N);
 int BinSearch(Student* s, const int N, const string prizv, const unsigned kurs, const Spec spec);
 int* IndexSort(Student* s, const int N);
@@ -60,11 +58,9 @@ int main() {
         cout << "Виберіть дію:" << endl << endl;
         cout << " [1] - введення даних з клавіатури" << endl;
         cout << " [2] - вивід даних на екран" << endl;
-        cout << " [3] - вивід прізвище студента, у якого найбільший середній бал" << endl;
-        cout << " [4] - вивід процент студентів, які вчаться на «відмінно»" << endl;
-        cout << " [5] - фізичне впорядкування даних" << endl;
-        cout << " [6] - бінарний пошук студент за прізвищем, курсом і спеціальністю" << endl;
-        cout << " [7] - індексне впорядкування та вивід даних" << endl;
+        cout << " [3] - фізичне впорядкування даних" << endl;
+        cout << " [4] - бінарний пошук студент за прізвищем, курсом і спеціальністю" << endl;
+        cout << " [5] - індексне впорядкування та вивід даних" << endl;
         cout << " [0] - вихід та завершення роботи програми" << endl << endl;
         cout << "Введіть значення: "; cin >> menuItem;
         cout << endl << endl << endl;
@@ -77,16 +73,9 @@ int main() {
             Print(s, N);
             break;
         case 3:
-            cout << "Найбільший середній бал в студента: " << highestAverageScore(s, N) << endl;
-            break;
-        case 4:
-            cout << "Процент студентів, які вчаться на «відмінно»: " << percentageStudentsStudyExcellently(s, N) << "%";
-            
-            break;
-        case 5:
             Sort(s, N);
             break;
-        case 6:
+        case 4:
             cout << "Введіть ключі пошуку:" << endl;
             cout << " прізвище: "; cin >> prizv;
             cout << " курс: "; cin >> kurs;
@@ -99,7 +88,7 @@ int main() {
             else
                 cout << "Шуканого працівника не знайдено" << endl;
             break;
-        case 7:
+        case 5:
             PrintIndexSorted(s, IndexSort(s, N), N);
             break;
         case 0:
@@ -179,59 +168,6 @@ void Print(Student* s, const int N) {
     }
     cout << "===================================================================================================" << endl;
     cout << endl;
-}
-
-string highestAverageScore(Student* s, const int N) {
-    double stud = 0, max = 0;
-    int index = 0;
-    for (int i = 0; i < N; i++) {
-        stud = s[i].physics + s[i].maths;
-        switch (s[i].spec) {
-        case KN:
-            stud += s[i].programming;
-            break;
-        case INF:
-            stud += s[i].numMethods;
-            break;
-        case MATHandECONOM:
-        case PHandINF:
-        case WORK:
-            stud += s[i].pedagogy;
-            break;
-        }
-        if (stud > max) {
-            max = stud;
-            index = i;
-        }
-        stud = 0;
-    };
-    return s[index].prizv;
-}
-
-double percentageStudentsStudyExcellently(Student* s, const int N) {
-    int number = 0;
-    double stud = 0;
-    for (int i = 0; i < N; i++) {
-        stud = s[i].physics + s[i].maths;
-        switch (s[i].spec) {
-        case KN:
-            stud += s[i].programming;
-            break;
-        case INF:
-            stud += s[i].numMethods;
-            break;
-        case MATHandECONOM:
-        case PHandINF:
-        case WORK:
-            stud += s[i].pedagogy;
-            break;
-        }
-        if (stud / 3 == 5) {
-            number++;
-        }
-        stud = 0;
-    };
-    return (number * 100.0) / N;
 }
 
 void Sort(Student* s, const int N){

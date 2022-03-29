@@ -34,8 +34,8 @@ struct Student {
 
 void Create(Student* s, const int N);
 void Print(Student* s, const int N);
-void highestAverageScore(Student* s, const int N);
-void percentageStudentsStudyExcellently(Student* s, const int N);
+string highestAverageScore(Student* s, const int N);
+double percentageStudentsStudyExcellently(Student* s, const int N);
 
 int main(){
     SetConsoleCP(1251); // встановлення сторінки win-cp1251 в потік вводу
@@ -48,8 +48,8 @@ int main(){
 
     Create(s, N);
     Print(s, N);
-    highestAverageScore(s, N);
-    percentageStudentsStudyExcellently(s, N);
+    cout << "Найбільший середній бал в студента: " << highestAverageScore(s, N) << endl;
+    cout << "Процент студентів, які вчаться на «відмінно»: " << percentageStudentsStudyExcellently(s, N) << endl;
 
     return 0;
 }
@@ -122,7 +122,7 @@ void Print(Student* s, const int N){
     cout << endl;
 }
 
-void highestAverageScore(Student* s, const int N){
+string highestAverageScore(Student* s, const int N){
     double stud = 0, max=0;
     int index = 0;
     for (int i = 0; i < N; i++) {
@@ -146,10 +146,10 @@ void highestAverageScore(Student* s, const int N){
         }
         stud = 0;
     };
-    cout << "Найбільший середній бал в студента: " << s[index].prizv << " Середній бал: " << max/3 << endl;
+   return s[index].prizv;
 }
 
-void percentageStudentsStudyExcellently(Student* s, const int N){
+double percentageStudentsStudyExcellently(Student* s, const int N){
     int number = 0;
     double stud = 0;
     for (int i = 0; i < N; i++) {
@@ -172,6 +172,5 @@ void percentageStudentsStudyExcellently(Student* s, const int N){
         }
         stud = 0;
     };
-    cout << "Процент студентів, які вчаться на «відмінно»: " << ((number * 100.0) / N) << "%" << endl
-        << "Кількість студентів, які вчаться на «відмінно»: " << number;
+    return (number * 100.0) / N;
 }

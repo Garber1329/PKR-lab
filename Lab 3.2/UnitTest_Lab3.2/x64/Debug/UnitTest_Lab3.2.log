@@ -1,0 +1,5 @@
+﻿  pch.cpp
+  UnitTest_Lab3.2.cpp
+D:\Політех\PKR-lab\Lab 3.2\Lab 3.2\Lab 3.2.cpp(263,24): warning C4018: '<': signed/unsigned mismatch
+     Creating library D:\Політех\PKR-lab\Lab 3.2\x64\Debug\UnitTest_Lab3.2.lib and object D:\Політех\PKR-lab\Lab 3.2\x64\Debug\UnitTest_Lab3.2.exp
+  UnitTest_Lab3.2.vcxproj -> D:\Політех\PKR-lab\Lab 3.2\x64\Debug\UnitTest_Lab3.2.dll
