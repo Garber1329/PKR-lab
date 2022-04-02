@@ -126,20 +126,7 @@ string highestAverageScore(Student* s, const int N){
     double stud = 0, max=0;
     int index = 0;
     for (int i = 0; i < N; i++) {
-        stud = s[i].physics + s[i].maths;
-        switch (s[i].spec) {
-        case KN:
-            stud += s[i].programming;
-            break;
-        case INF:
-            stud += s[i].numMethods;
-            break;
-        case MATHandECONOM:
-        case PHandINF:
-        case WORK:
-            stud += s[i].pedagogy;
-            break;
-        }
+        stud = s[i].physics + s[i].maths + s[i].programming;
         if (stud > max) {
             max = stud;
             index = i;
@@ -153,20 +140,7 @@ double percentageStudentsStudyExcellently(Student* s, const int N){
     int number = 0;
     double stud = 0;
     for (int i = 0; i < N; i++) {
-        stud = s[i].physics + s[i].maths;
-        switch (s[i].spec) {
-        case KN:
-            stud += s[i].programming;
-            break;
-        case INF:
-            stud += s[i].numMethods;
-            break;
-        case MATHandECONOM:
-        case PHandINF:
-        case WORK:
-            stud += s[i].pedagogy;
-            break;
-        }
+        stud = s[i].physics + s[i].maths + s[i].programming;
         if (stud/3 == 5) {
             number++;
         }
