@@ -84,9 +84,9 @@ int main() {
             cin >> ispec;
             spec = (Spec)ispec;
             if ((found = BinSearch(s, N, prizv, kurs, spec)) != -1)
-                cout << "Знайдено працівника в позиції " << found + 1 << endl;
+                cout << "Знайдено студента в позиції " << found + 1 << endl;
             else
-                cout << "Шуканого працівника не знайдено" << endl;
+                cout << "Шуканого студента не знайдено" << endl;
             break;
         case 5:
             PrintIndexSorted(s, IndexSort(s, N), N);
