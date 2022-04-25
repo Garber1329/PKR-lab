@@ -1,0 +1,12 @@
+﻿  UnitTest1.cpp
+D:\Політех\PKR-lab\Lab 4.2\Lab 4.2\Lab 4.2.cpp(52,21): warning C4018: '<': signed/unsigned mismatch
+D:\Політех\PKR-lab\Lab 4.2\Lab 4.2\Lab 4.2.cpp(55,30): warning C4805: '==': unsafe mix of type 'int' and type 'bool' in operation
+D:\Політех\PKR-lab\Lab 4.2\Lab 4.2\Lab 4.2.cpp(57,30): warning C4805: '==': unsafe mix of type 'int' and type 'bool' in operation
+D:\Політех\PKR-lab\Lab 4.2\Lab 4.2\Lab 4.2.cpp(58,30): warning C4805: '==': unsafe mix of type 'int' and type 'bool' in operation
+D:\Політех\PKR-lab\Lab 4.2\Lab 4.2\Lab 4.2.cpp(59,30): warning C4805: '==': unsafe mix of type 'int' and type 'bool' in operation
+D:\Політех\PKR-lab\Lab 4.2\Lab 4.2\Lab 4.2.cpp(62,31): warning C4805: '==': unsafe mix of type 'int' and type 'bool' in operation
+D:\Політех\PKR-lab\Lab 4.2\Lab 4.2\Lab 4.2.cpp(64,31): warning C4805: '==': unsafe mix of type 'int' and type 'bool' in operation
+D:\Політех\PKR-lab\Lab 4.2\Lab 4.2\Lab 4.2.cpp(65,31): warning C4805: '==': unsafe mix of type 'int' and type 'bool' in operation
+D:\Політех\PKR-lab\Lab 4.2\Lab 4.2\Lab 4.2.cpp(69,28): warning C4018: '<': signed/unsigned mismatch
+     Creating library D:\Пол?тех\PKR-lab\Lab 4.2\Debug\UnitTest1.lib and object D:\Пол?тех\PKR-lab\Lab 4.2\Debug\UnitTest1.exp
+  UnitTest1.vcxproj -> D:\Політех\PKR-lab\Lab 4.2\Debug\UnitTest1.dll

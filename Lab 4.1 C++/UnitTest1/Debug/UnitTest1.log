@@ -1,0 +1,4 @@
+﻿  UnitTest1.cpp
+D:\Політех\PKR-lab\Lab 4.1 C++\Lab 4.1 C++\Lab 4.1 C++.cpp(41,21): warning C4018: '<': signed/unsigned mismatch
+     Creating library D:\Пол?тех\PKR-lab\Lab 4.1 C++\Debug\UnitTest1.lib and object D:\Пол?тех\PKR-lab\Lab 4.1 C++\Debug\UnitTest1.exp
+  UnitTest1.vcxproj -> D:\Політех\PKR-lab\Lab 4.1 C++\Debug\UnitTest1.dll
