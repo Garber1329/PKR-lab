@@ -38,7 +38,7 @@ int ProcessTXT1(char* fname)
 	int k = 0;
 	while (getline(fin, s))
 	{
-		for (int i = 0; i < s.length(); i++)
+		for (int i = 0; i < s.length()-2; i++)
 			if ((s[i] == 'a' || s[i] == 'b' || s[i] == 'c') &&
 				(s[i + 1] == 'a' || s[i + 1] == 'b' || s[i + 1] == 'c') &&
 				(s[i + 2] == 'a' || s[i + 2] == 'b' || s[i + 2] == 'c'))
