@@ -1,0 +1,4 @@
+﻿  Lab 5.4.cpp
+D:\Політех\PKR-lab\Lab 5.4\Lab 5.4\Lab 5.4.cpp(31,7): warning C4101: 'prizv': unreferenced local variable
+D:\Політех\PKR-lab\Lab 5.4\Lab 5.4\Lab 5.4.cpp(147,11): warning C4244: 'initializing': conversion from 'std::streamoff' to 'int', possible loss of data
+  Lab 5.4.vcxproj -> D:\Політех\PKR-lab\Lab 5.4\Debug\Lab 5.4.exe

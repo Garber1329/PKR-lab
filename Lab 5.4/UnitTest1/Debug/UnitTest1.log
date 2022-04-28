@@ -1,0 +1,4 @@
+﻿  UnitTest1.cpp
+D:\Політех\PKR-lab\Lab 5.4\Lab 5.4\Lab 5.4.cpp(31,7): warning C4101: 'prizv': unreferenced local variable
+D:\Політех\PKR-lab\Lab 5.4\Lab 5.4\Lab 5.4.cpp(147,11): warning C4244: 'initializing': conversion from 'std::streamoff' to 'int', possible loss of data
+  UnitTest1.vcxproj -> D:\Політех\PKR-lab\Lab 5.4\Debug\UnitTest1.dll

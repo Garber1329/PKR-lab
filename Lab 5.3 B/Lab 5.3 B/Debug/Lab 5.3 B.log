@@ -1,0 +1,8 @@
+﻿  Lab 5.3 B.cpp
+D:\Політех\PKR-lab\Lab 5.3 B\Lab 5.3 B\Lab 5.3 B.cpp(211,11): warning C4244: 'initializing': conversion from 'std::streamoff' to 'int', possible loss of data
+D:\Політех\PKR-lab\Lab 5.3 B\Lab 5.3 B\Lab 5.3 B.cpp(235,11): warning C4244: 'initializing': conversion from 'std::streamoff' to 'int', possible loss of data
+D:\Політех\PKR-lab\Lab 5.3 B\Lab 5.3 B\Lab 5.3 B.cpp(242,22): warning C4101: 'tmp': unreferenced local variable
+D:\Політех\PKR-lab\Lab 5.3 B\Lab 5.3 B\Lab 5.3 B.cpp(288,11): warning C4244: 'initializing': conversion from 'std::streamoff' to 'int', possible loss of data
+D:\Політех\PKR-lab\Lab 5.3 B\Lab 5.3 B\Lab 5.3 B.cpp(326,8): warning C4244: 'initializing': conversion from 'std::streamoff' to 'int', possible loss of data
+D:\Політех\PKR-lab\Lab 5.3 B\Lab 5.3 B\Lab 5.3 B.cpp(334,20): warning C4018: '>': signed/unsigned mismatch
+  Lab 5.3 B.vcxproj -> D:\Політех\PKR-lab\Lab 5.3 B\Debug\Lab 5.3 B.exe
