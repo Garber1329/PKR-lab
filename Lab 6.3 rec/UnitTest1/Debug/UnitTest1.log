@@ -1,0 +1,5 @@
+﻿  pch.cpp
+  UnitTest1.cpp
+D:\Політех\PKR-lab\Lab 6.3 rec\Lab 6.3 rec\Lab 6.3 rec.cpp(34): warning C4715: 'count': not all control paths return a value
+     Creating library D:\Політех\PKR-lab\Lab 6.3 rec\Debug\UnitTest1.lib and object D:\Політех\PKR-lab\Lab 6.3 rec\Debug\UnitTest1.exp
+  UnitTest1.vcxproj -> D:\Політех\PKR-lab\Lab 6.3 rec\Debug\UnitTest1.dll
