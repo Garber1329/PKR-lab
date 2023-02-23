@@ -1,0 +1,4 @@
+﻿  Lab 6.10.cpp
+D:\Політех\PKR-lab\Lab 6.10\Lab 6.10\Lab 6.10.cpp(323,9): warning C4101: 'old_value': unreferenced local variable
+D:\Політех\PKR-lab\Lab 6.10\Lab 6.10\Lab 6.10.cpp(322,9): warning C4101: 'previous_value': unreferenced local variable
+  Lab 6.10.vcxproj -> D:\Політех\PKR-lab\Lab 6.10\Debug\Lab 6.10.exe
